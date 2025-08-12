@@ -1,0 +1,84 @@
+# dependencies
+node_modules/
+
+# we are using pnpm here
+package-lock.json
+yarn.lock
+
+.DS_Store
+.env# Node.js and pnpm
+node_modules/
+pnpm-lock.yaml
+.pnpm-store/
+.pnpm-debug.log
+
+# Turborepo
+.turbo/
+
+# Build outputs
+dist/
+build/
+out/
+.next/  # Next.js build output
+.vite/  # Vite cache
+coverage/  # Test coverage reports
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-error.log*
+
+# Editor and OS files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+/coverage
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Next.js specific
+.next/
+.next/cache/
+
+# Vite specific
+vite.config.ts.timestamp*
+vite.config.js.timestamp*
+
+# Remix specific
+.remix/
+public/build/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+.cache
+Thumbs.db
+/.vscode
+.idea/
+.eslintcache
+dist/
+coverage
+storybook-static
+.reports
+.pnpm-store
